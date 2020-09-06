@@ -117,7 +117,7 @@ h3.heading {
   transition: transform .5s ease;
 }
 .row.no-padding [class*=col-] {
-  padding: 0; 
+  padding: 0;
 }
 .portfolio img:hover {
   transform: scale(1.1);
