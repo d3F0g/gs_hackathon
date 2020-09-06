@@ -73,3 +73,9 @@ body {
     min-height: 500px;
     background: transparent;
 }
+
+.info {
+    z-index: 2;
+    position: relative;
+    color: #fff;
+}
