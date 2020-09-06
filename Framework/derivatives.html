@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Derivatives</title>
+        <link rel="stylesheet" type="text/css" href="css/parallax.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="parallax.js-1.5.0/parallax.min.js"></script>
+    </head>
+    <body>
+        <section class="zoom">
+            <img src="img/mountains/mountain1.png" id="layer1">
+            <img src="img/mountains/mountain2.png" id="layer2">
+            <img src="img/mountains/text.png" id="text">
+        </section>
+        <section class="content">
+            <p>Why invest in derivatives? <br><br>
+
+                Derivatives are a form of financial contract <br><br>
+                
+                Between two or more parties based upon the assets. The most common form of derivatives are futures, forwards, options, swaps. <br> <br>
+                
+                They can be used to hedge or insure against risk on an asset  
+                <br><br>
+                It can also be used for speculation in betting on the future price of an assets <br><br>
+                </p>
+        </section>
+        <script type="text/javascript">
+            var layer1 = document.getElementById('layer1');
+            scroll = window.pageYOffset;
+            document.addEventListener('scroll',
+            function (e) {
+                var offset = window.pageYOffset;
+                scroll = offset;
+                layer1.style.width = (100 + scroll) + '%';
+            }
+            );
+
+            var layer2 = document.getElementById('layer2');
+            scroll = window.pageYOffset;
+            document.addEventListener('scroll',
+            function (e) {
+                var offset = window.pageYOffset;
+                scroll = offset;
+                layer2.style.width = (100 + scroll/5) + '%';
+                layer2.style.left = scroll/50 + '%';
+            }
+            );
+
+            var text = document.getElementById('text');
+            scroll = window.pageYOffset;
+            document.addEventListener('scroll',
+            function (e) {
+                var offset = window.pageYOffset;
+                scroll = offset;
+                layer2.style.width = (100 + scroll/5) + '%';
+                text.style.top = - scroll/10 + '%';
+            }
+            );
+        </script>
+
+
+        <div class="container">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="img/computers.png"></div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="img/computers-2.png"></div>
+
+        </div>
+    </body>
+</html>
