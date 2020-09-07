@@ -1,7 +1,0 @@
-if u run in ubuntu, cr8 venv then install these dependencies
-
-pip install alpha vantage
-pip install pandas
-pip install matplotlib
-
-run advantage.py, data will show in ubuntu window. png file cr8ed in same folder
